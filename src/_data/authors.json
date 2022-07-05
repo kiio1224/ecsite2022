@@ -1,0 +1,145 @@
+[
+    {
+        "img": [
+            "umaibo01.jpg",
+            "umaibo02.jpg",
+            "umaibo03.jpg"
+        ],
+        "name": "Logicool G ロジクール G PRO X SUPERLIGHT",
+        "price": "15,000",
+        "state": true,
+        "text": "ゲーマー御用達の無線マウス。「61g」と驚異の軽量さで、無線マウスとしても最軽量クラス。無線も遅延がない。最長70時間の仕様が可能と非常に電源効率が高い。短時間で充電も回復し、常にマウスを使い続けることが可能だ。",
+        "id": 1,
+        "colors": "黒",
+        "maker": "logicool",
+        "url": "mouse"
+    },
+    {
+        "img": [
+            "yochan01.jpg",
+            "yochan02.jpg",
+            "yochan03.jpg",
+            "yochan04.jpg"
+        ],
+        "name": "Ducky キーボード One 2 Mini RGB versionシルバー軸",
+        "price": "14,980",
+        "state": false,
+        "text": "Ducky One2 Miniは60%サイズのキーボードで、文字列は英字のみ、カラーはブラックとホワイト、軸はCherry社の赤軸・茶軸・シルバー軸の3週類から選択できます。赤軸・シルバー軸も、打鍵感・打鍵音が少なく軽いリニアタイプの軸です。なので、どんな時間でも使いやすいキーボードです。キーボードの見た目は、サイズも非常にコンパクトで可愛いです。",
+        "id": 2,
+        "colors": "黒",
+        "maker": "Ducky",
+        "url": "keyboard"
+    },
+    {
+        "img": [
+            "yochan01.jpg",
+            "yochan02.jpg",
+            "yochan03.jpg",
+            "yochan04.jpg"
+        ],
+        "name": "Logicool G502 Hero",
+        "price": "5,000",
+        "state": true,
+        "text": "G502 HEROは有線型ゲーミングマウスです。最大の特徴は、11個のプログラマブルボタンが搭載されており、ウェイトによる重量調整が可能です。その11個のボタンはゲームでも役立ちますが、他にもキーボードのショートカットを登録できるので、保存をするCtrol+Sなども設定することができます。ネットサーフィンやプログラミングでも役立ちそうです。",
+        "id": 3,
+        "colors": "黒",
+        "maker": "logicool",
+        "url": "mouse"
+    },
+    {
+        "img": [
+            "yochan01.jpg",
+            "yochan02.jpg",
+            "yochan03.jpg",
+            "yochan04.jpg"
+        ],
+        "name": "SteelSeriesゲーミングヘッドセットArctis 5",
+        "price": "8,000",
+        "state": false,
+        "text": "PC・PS4でも使用できる有線ヘッドセット。長時間つけていても痛くないヘッドセットです。マイクの音質も良いです。本体から直接ミュートができたり、手物とケーブルから音量調節が可能できます。ヘッドセットにはバンドのようなものがついてあるので、自分にあったサイズに調節できます。",
+        "id": 4,
+        "colors": "黒",
+        "maker": "SteelSeries",
+        "url": "headset"
+    },
+    {
+        "img": [
+            "yochan01.jpg",
+            "yochan02.jpg",
+            "yochan03.jpg",
+            "yochan04.jpg"
+        ],
+        "name": "steelseries マウスパッド",
+        "price": "1,500",
+        "state": true,
+        "text": "愛用者も多い繊細なコントロールができるコスパ最強マウスパッド。様々な大きさのマウスパッドがあり、机のサイズや感度によってサイズを考えて購入することができます。多くのプロゲーマーも愛用しているマウスパッドで価格も手頃なので非常におすすめです。",
+        "id": 5,
+        "colors": "黒",
+        "maker": "SteelSeries",
+        "url": "mousepad"
+    },
+    {
+        "img": [
+            "yochan01.jpg",
+            "yochan02.jpg",
+            "yochan03.jpg",
+            "yochan04.jpg"
+        ],
+        "name": "ダンベル",
+        "price": "4,000",
+        "state": true,
+        "text": "10kg✕2のダンベル。いくつか重りがあり、様々な調整が可能。片側で5kg・7.5kg・10kgの調整が可能。筋トレ初心者で少しずつ進めていきたいと言う人向けのダンベルです。少しずつ重りが緩んでいくこともあるので、しっかりと固定することが必要です。値段相応の価値はあります。",
+        "id": 7,
+        "colors": "銀色",
+        "maker": "",
+        "url": "dumbbell"
+    },
+    {
+        "img": [
+            "yochan01.jpg",
+            "yochan02.jpg",
+            "yochan03.jpg",
+            "yochan04.jpg"
+        ],
+        "name": "L字デスク",
+        "price": "1,5000",
+        "state": false,
+        "text": "快適な作業用デスク。これ一つで解決です。特にパソコンを使って作業する方向けです。パソコンの付近に飲み物などを置かなくても済みますし、スペースが広いので様々な作業の同時進行が可能です。物をしまうスペースもあるので、大事な資料などなくしてはいけないものを入れておいたりも可能です・欠点としては学校や会社のデスクスペースが狭く感じることですかね...。",
+        "id": 8,
+        "colors": "茶色",
+        "maker": "",
+        "url": "desk"
+    },
+    {
+        "img": [
+            "yochan01.jpg",
+            "yochan02.jpg",
+            "yochan03.jpg",
+            "yochan04.jpg"
+        ],
+        "name": "トレーニングベンチ",
+        "price": "5,000",
+        "state": true,
+        "text": "Amazonで購入した筋トレに使うトレーニングベンチ組み立ても簡単で手頃なサイズなので、自宅で筋トレをする人にうってつけのアイテム。",
+        "id": 9,
+        "colors": "黒",
+        "maker": "",
+        "url": "Training bench"
+    },
+    {
+        "img": [
+            "yochan01.jpg",
+            "yochan02.jpg",
+            "yochan03.jpg",
+            "yochan04.jpg"
+        ],
+        "name": "ゲーミングチェア",
+        "price": "2,0000",
+        "state": false,
+        "text": "",
+        "id": 10,
+        "colors": "青",
+        "maker": "",
+        "url": "chair"
+    }
+]

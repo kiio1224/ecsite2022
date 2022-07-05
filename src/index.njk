@@ -4,12 +4,34 @@ layout: layout.njk
 csspath: ./css/
 ---
 
+<header>
+    <div class="header-flex">
+        <h1>{{ title }}</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">home</a></li>
+                <li><a href="./about/index.html">about</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <h2>item</h2>
+    <div class="contents">
+        
+                {% for item in authors %}
+                <section class="items">
+                <a href="../authors/{{ item.url }}">
+                    <img src="{{ item.img}}" alt="image">
+                    <h3>{{ item.name }}</h3>
+                    <p>{{ item.price}}</p>
+                    <p>{{ item.state}}</p>
+                </a>
+                </section>
+                {% endfor %}
+            
 
-<h1>{{ title }}</h1>
-<nav>
-    <ul>
-        <li>home</li>
-        <li>about</li>
-    </ul>
-</nav>
-<h2>item</h2>
+        
+    </div>
+</main>
+

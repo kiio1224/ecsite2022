@@ -1,0 +1,41 @@
+@charset "utf-8";
+body{
+    color: #333;
+    font-size:16px;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+h2{
+    font-size:1.25rem ;
+    text-align: center;
+    margin-bottom:1.875em ;
+}
+h3{
+    font-size: 1rem;
+    margin:0.625em 0 ;
+}
+.contents{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.items{
+    width: 40%;
+    margin-bottom:1.875em ;
+}
+p{
+    font-size: 0.875rem;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.header-flex{
+    display: flex;
+    align-items: center;
+}
