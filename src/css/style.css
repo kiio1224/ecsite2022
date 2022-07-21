@@ -16,12 +16,12 @@ h3{
     font-size: 1rem;
     margin:0.625em 0 ;
 }
-.contents{
+.list{
     display: flex;
     flex-wrap:wrap;
     justify-content: space-around;
 }
-.items{
+.contents{
     width: 40%;
     margin-bottom:1.875em ;
 }

@@ -17,21 +17,18 @@ csspath: ./css/
 </header>
 <main>
     <h2>item</h2>
-    <div class="contents">
+    <div class="list">
         
-                {% for item in authors %}
-                <section class="items">
-                <a href="../authors/{{ item.url }}">
-                    <img src="{{ item.img}}" alt="image">
-                    <h3>{{ item.name }}</h3>
-                    <p>{{ item.price}}</p>
-                    <p>{{ item.state}}</p>
+                {% for contents in items %}
+                <section class="contents">
+                <a href="../item/{{ contents.url }}">
+                    <img src="{{ contents.img}}" alt="image">
+                    <h3>{{ contents.name }}</h3>
+                    <p>{{ contents.price}}</p>
+                    <p>{{ contents.state}}</p>
                 </a>
                 </section>
                 {% endfor %}
-            
-
-        
     </div>
 </main>
 

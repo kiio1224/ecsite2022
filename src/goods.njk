@@ -1,0 +1,11 @@
+---
+title: kiishop
+pagination:
+  data: goodslist
+  size: 1
+permalink: 'goodslist/{{ pagination.items[0].url | slugify }}/'
+---
+
+{{ pagination.items[0].url | log }}
+
+
