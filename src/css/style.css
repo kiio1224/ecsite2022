@@ -16,10 +16,14 @@ h3{
     font-size: 1rem;
     margin:0.625em 0 ;
 }
+h4{
+    text-align: center;
+
+}
 .list{
     display: flex;
     flex-wrap:wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 .contents{
     width: 40%;
@@ -38,4 +42,15 @@ ul{
 .header-flex{
     display: flex;
     align-items: center;
+}
+@media screen and (min-width: 414px){
+    .contents{
+        width: 30%;
+        margin-bottom:1.875em ;
+    }
+    .list{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+    }
 }

@@ -10,7 +10,6 @@ csspath: ./css/
         <nav>
             <ul>
                 <li><a href="./index.html">home</a></li>
-                <li><a href="./about/index.html">about</a></li>
             </ul>
         </nav>
     </div>
@@ -18,10 +17,9 @@ csspath: ./css/
 <main>
     <h2>item</h2>
     <div class="list">
-        
-                {% for contents in items %}
+                {% for contents in goodslist %}
                 <section class="contents">
-                <a href="../item/{{ contents.url }}">
+                <a href="../goodslist/{{ contents.url }}">
                     <img src="{{ contents.img}}" alt="image">
                     <h3>{{ contents.name }}</h3>
                     <p>{{ contents.price}}</p>
@@ -30,5 +28,7 @@ csspath: ./css/
                 </section>
                 {% endfor %}
     </div>
+    <h4>MORE</h4>
+    <small>copyrightMyshop2022</small>
 </main>
 
