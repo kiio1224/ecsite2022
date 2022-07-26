@@ -2,48 +2,77 @@
 body{
     color: #333;
     font-size:16px;
+    margin: 0;
+    padding: 0;
 }
 a{
     text-decoration: none;
     color: #333;
 }
-h2{
+li{
+    list-style-type: none;
+}
+p{
+    margin: 0;
+}
+.inner{
+    width: 88.4%;
+    max-width: 414px;
+    margin: auto;
+}
+.listname{
     font-size:1.25rem ;
     text-align: center;
     margin-bottom:1.875em ;
 }
-h3{
+.listname{
     font-size: 1rem;
     margin:0.625em 0 ;
+    padding-left:0.63em ;
 }
 h4{
     text-align: center;
-
 }
 .list{
     display: flex;
     flex-wrap:wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 .contents{
     width: 40%;
     margin-bottom:1.875em ;
 }
-p{
+.list_text{
     font-size: 0.875rem;
     margin: 0;
-    padding: 0;
+    padding-left:0.63em ;
 }
 ul{
     list-style-type: none;
     display: flex;
     gap: 20px;
 }
+header{
+    background-color: #42d1f5;
+}
 .header-flex{
     display: flex;
     align-items: center;
+    
 }
-@media screen and (min-width: 414px){
+img{
+    width: 100%;
+}
+footer{
+    margin-top: 80px;
+    background-color:#42d1f5 ;
+    padding:1.9em 0;
+}
+small{
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 700px){
     .contents{
         width: 30%;
         margin-bottom:1.875em ;
@@ -53,4 +82,40 @@ ul{
         flex-wrap:wrap;
         justify-content: space-around;
     }
+    .contentbox{
+    margin-top:80px ;
+}
+.imgbox{
+    width: 30%;
+}
+.itembox{
+    width: 50%;
+}
+.contentbox{
+    display: flex;
+    justify-content: space-around;
+}
+.goods_name{
+    font-size: 1.5em;
+}
+.goods_price{
+    font-size: 1em;
+    margin: 0;
+    margin-bottom: 0.8em;
+}
+.goods_text{
+    font-size: 0.9em;
+    margin: 0;
+    letter-spacing: .2em;
+}
+.goods_maker{
+ margin-bottom: 30px;
+}
+.link{
+   
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 20px;
+}
 }

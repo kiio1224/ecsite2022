@@ -9,26 +9,35 @@ csspath: ./css/
         <h1>{{ title }}</h1>
         <nav>
             <ul>
-                <li><a href="./index.html">home</a></li>
+                <li><a href="../../index.html">home</a></li>
             </ul>
         </nav>
     </div>
 </header>
-<main>
+<main class="inner">
     <h2>item</h2>
     <div class="list">
                 {% for contents in goodslist %}
                 <section class="contents">
-                <a href="../goodslist/{{ contents.url }}">
-                    <img src="{{ contents.img}}" alt="image">
-                    <h3>{{ contents.name }}</h3>
-                    <p>{{ contents.price}}</p>
-                    <p>{{ contents.state}}</p>
+                <a href="./goodslist/{{ contents.url }}">
+                    <img src="./img/{{ contents.img[0] }}" alt="imagelist">
+                    <h3 class="listname">{{ contents.name }}</h3>
+                    <p class="list_text">{{ contents.price}}</p>
+                    <p class="list_text">{{ contents.state}}</p>
                 </a>
                 </section>
                 {% endfor %}
     </div>
     <h4>MORE</h4>
-    <small>copyrightMyshop2022</small>
+    <footer>
+        <div class="iconbox">
+            <a href="#"><img src="" alt="instagram"></a>
+            <a href="#"><img src="" alt="twitter"></a>
+            <a href="#"><img src="" alt="facebook"></a>
+        </div>
+        <small>copyrightMyshop2022</small>
+    </footer>
+
+    
 </main>
 

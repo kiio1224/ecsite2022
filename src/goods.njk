@@ -1,11 +1,48 @@
 ---
 title: kiishop
+layout: layout.njk
+csspath: ../../css/
 pagination:
   data: goodslist
   size: 1
+  alias: product
 permalink: 'goodslist/{{ pagination.items[0].url | slugify }}/'
 ---
+<header>
+    <div class="header-flex inner">
+        <h1>{{ title }}</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">home</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main class="inner">
+  <div class="contentbox">
+    <div class="imgbox">
+      <img src="../../img/{{ product.img[0] }}" alt="imagelist">
+    </div>
+    <div class="itembox">
+      <h2 class="goods_name">{{ product.name }}</h2>
+      <p class="goods_price">{{ product.price }}円</p>
+      <p class="goods_text">{{ product.text }}</p>
+        <p class="goods_text">■品番　{{ product.id }}</p>
+        <p class="goods_text">■カラー　{{ product.colors }}</p>
+        <p class="goods_maker">■メーカー　{{ product.maker }}</p>
+      <a class="link" href="#">カートに入れる</a>
+      <p>※この商品は○月○日にお届けします</p>
+      <p>※手数料に500円かかります</p>
+    </div>
+    
+  </div>
 
-{{ pagination.items[0].url | log }}
-
-
+</main>
+ <footer>
+        <div class="iconbox">
+            <a href="#"><img src="" alt="instagram"></a>
+            <a href="#"><img src="" alt="twitter"></a>
+            <a href="#"><img src="" alt="facebook"></a>
+        </div>
+        <small>copyrightMyshop2022</small>
+    </footer>
