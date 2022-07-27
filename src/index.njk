@@ -5,13 +5,27 @@ csspath: ./css/
 ---
 
 <header>
-    <div class="header-flex">
+    <div class="header-flex inner">
         <h1>{{ title }}</h1>
         <nav>
             <ul>
                 <li><a href="../../index.html">home</a></li>
             </ul>
         </nav>
+        <div class="gnav">
+            <div class="openbtn"><span></span><span></span><span></span></div>
+        <nav id="g-nav">
+        <div id="g-nav-list">
+        <ul>
+        <li><a href="#">Top</a></li> 
+        <li><a href="#">About</a></li> 
+        <li><a href="#">Service</a></li> 
+        <li><a href="#">Contact</a></li> 
+        </ul>
+        </div>
+        </nav>
+        </div>
+        
     </div>
 </header>
 <main class="inner">
@@ -28,16 +42,20 @@ csspath: ./css/
                 </section>
                 {% endfor %}
     </div>
-    <h4>MORE</h4>
+    <div class="btn">
+        <h4>もっと見る</h4>
+    </div>
+    
+    </main>
     <footer>
         <div class="iconbox">
-            <a href="#"><img src="" alt="instagram"></a>
-            <a href="#"><img src="" alt="twitter"></a>
-            <a href="#"><img src="" alt="facebook"></a>
+            <a href="#"><img src="./img/instagram.png" alt="instagram"></a>
+            <a href="#"><img src="./img/Twitterpng.png" alt="twitter"></a>
         </div>
         <small>copyrightMyshop2022</small>
     </footer>
-
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="./js/java.js"></script>
     
-</main>
+
 
