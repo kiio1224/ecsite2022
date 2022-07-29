@@ -25,6 +25,9 @@ p{
 img{
     width: 100%;
 }
+h1{
+    margin-left:0.5em;
+}
 .inner{
     width: 88.4%;
     max-width: 414px;
@@ -45,10 +48,7 @@ header{
     top: 0;
 }
 .PCnav{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content:space-between;
+display: block;
 }
 .shopbtn{
     display: none;
@@ -316,14 +316,22 @@ input{
         max-width: 1280px;
         margin: auto;
     }
+    .PCnav{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content:space-between;
+    }
     .shopbtn{
         display: block;
-        width: 12%;
+        text-align: center;
         background-color:#e6c078;
+       height: 80px;
+       width: 80px;
     }
     .shopbtn img{
-        padding:1em;
-        width: 60%;
+        width: 50%;
+        padding-top: 20px;
     }
     .contentbox{
     margin-top:80px ;
