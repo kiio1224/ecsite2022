@@ -5,49 +5,62 @@ csspath: ./css/
 ---
 
 <header>
-    <div class="header-flex inner">
-        <h1>{{ title }}</h1>
-        <nav>
+    <div class="header-contents">
+        <div class="inner">
+            <div class="header-box">
+                <h1>{{ title }}</h1>
+                <div class="PCnav">
+                    <nav>
+                        <ul>
+                            <li><a href="../../index.html">home</a></li>
+                        </ul>
+                    </nav>
+                    <div class="shopbtn">
+                        <p><a href="#"><img src="../../img/kounyuu.png" alt=""></a></p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="gnav">
+                <div class="openbtn"><span></span><span></span><span></span></div>
+            <nav id="g-nav">
+            <div id="g-nav-list">
             <ul>
-                <li><a href="../../index.html">home</a></li>
+            <li><a href="./index.html">Top</a></li>
+
             </ul>
-        </nav>
-        <div class="gnav">
-            <div class="openbtn"><span></span><span></span><span></span></div>
-        <nav id="g-nav">
-        <div id="g-nav-list">
-        <ul>
-        <li><a href="#">Top</a></li> 
-        <li><a href="#">About</a></li> 
-        <li><a href="#">Service</a></li> 
-        <li><a href="#">Contact</a></li> 
-        </ul>
+            </div>
+            </nav>
+            </div>
         </div>
-        </nav>
-        </div>
-        
     </div>
 </header>
 <main class="inner">
     <h2>item</h2>
     <div class="list">
                 {% for contents in goodslist %}
-                <section class="contents">
+                <section class="contents target">
                 <a href="./goodslist/{{ contents.url }}">
                     <img src="./img/{{ contents.img[0] }}" alt="imagelist">
                     <h3 class="listname">{{ contents.name }}</h3>
-                    <p class="list_text">{{ contents.price}}</p>
-                    <p class="list_text">{{ contents.state}}</p>
+                    <p class="list_text">¥{{ contents.price}}</p>
+                    {% if contents.state === false %}
+                            <div class="list_state">在庫なし</div>
+                    {% endif %}
                 </a>
                 </section>
                 {% endfor %}
     </div>
     <div class="btn">
-        <h4>もっと見る</h4>
+        <button>もっと見る</button>
     </div>
     
     </main>
     <footer>
+        <h4>kiishop</h4>
+        <p>〒000-0000</p>
+        <p>名古屋市中村区名駅4-1-11</p>
         <div class="iconbox">
             <a href="#"><img src="./img/instagram.png" alt="instagram"></a>
             <a href="#"><img src="./img/Twitterpng.png" alt="twitter"></a>

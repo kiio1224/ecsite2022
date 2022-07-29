@@ -1,16 +1,20 @@
 @charset "utf-8";
+/* デフォルト */
 body{
     color: #333;
     font-size:16px;
     margin: 0;
     padding: 0;
-}
-header{
-    margin-bottom: 80px;
+    letter-spacing: .1em;
+    font-family:"メイリオ",Helvetica,"MSゴシック";
 }
 a{
     text-decoration: none;
     color: #333;
+}
+ul{
+    list-style-type: none;
+    gap: 20px;
 }
 li{
     list-style-type: none;
@@ -18,37 +22,51 @@ li{
 p{
     margin: 0;
 }
+img{
+    width: 100%;
+}
 .inner{
     width: 88.4%;
     max-width: 414px;
     margin: auto;
 }
-.listname{
-    font-size:1.25rem ;
-    text-align: center;
-    margin-bottom:1.875em ;
+/* header */
+header{
+    margin-bottom: 80px;
 }
+.header-box{
+    display:flex;
+    align-items: center;
+}
+.header-contents{
+    background-color: #dddddd;
+       width: 100%;
+    position: fixed;
+    top: 0;
+}
+.PCnav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content:space-between;
+}
+.shopbtn{
+    display: none;
+}
+/* item */
 .listname{
     font-size: 1rem;
     margin:0.625em 0 ;
 }
+
 main>h2{
     text-align: center;
-}
-.btn>h4{
-    display: inline-block;
-    padding:20px 40px;
-    background-color: #e6c078;
-    color: #fff;
-    border-radius: 30px;
-}
-.btn{
-    text-align: center;
+    padding-top: 80px;
 }
 .list{
     display: flex;
     flex-wrap:wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .list_text{
@@ -56,41 +74,88 @@ main>h2{
     margin: 0;
     padding-left:0.63em ;
 }
+.list_state{
+    font-size: 0.875rem;
+    color:rgb(253, 140, 140);
+    margin: 0;
+    padding-left:0.63em ;
+}
 .contents{
     width: 40%;
     margin-bottom:1.875em ;
 }
-ul{
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+/* btn */
+button{
+    display: inline-block;
+    border: none;
+    padding:20px 40px;
+    background-color: #e6c078;
+    color: #fff;
+    border-radius: 30px;
 }
-.header-flex{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    background-color: #42d1f5;
-}
-footer{
-    margin-top: 80px;
-    background-color:#42d1f5 ;
-    padding:1.9em 0;
+button:hover {
+    opacity: .9
+  }
+.btn{
     text-align: center;
 }
-img{
-    width: 100%;
+
+.hidden {
+    display: none;
+    opacity: 0;
+  }
+@keyframes fadeIn {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+       transform: translateY(0);
+      opacity: 1;
+    }
+  }
+/* footer */
+
+footer{
+    margin-top: 80px;
+    background-color:#dddddd; ;
+    padding:1.9em 0;
+    text-align: center;
 }
 
 small{
     margin: 0 auto;
 }
+h4{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 1em;
+}
+footer p{
+    font-size: 12px;
+    margin-bottom: .5em;
+}
 .iconbox img{
     width: 5%;
+    padding: 0 3% ;
+    margin-bottom: 1em;
 }
 /* goods */
+.contentbox{
+    padding-top: 80px;
+}
+.smallimgs ul{
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+.smallimgs li{
+    width: 30%;
+}
+input{
+    width:20px;
+}
 .goods_name{
     font-size: 1.5em;
 }
@@ -106,7 +171,13 @@ small{
 }
 .goods_maker{
     font-size: 0.8em;
+    margin: 0;
+    
+}
+.goods_count{
+    font-size: 0.8em;
     margin-bottom: 2em;
+    letter-spacing: .2em;
 }
 .textbox{
     margin-top: 1em;
@@ -130,7 +201,7 @@ small{
     right: -120%;
 	width:100%;
     height: 100vh;/*ナビの高さ*/
-	background:#42d1f5;
+	background:#ddd;
     /*動き*/
 	transition: all 0.6s;
 }
@@ -142,7 +213,7 @@ small{
 /*ナビゲーションの縦スクロール*/
 #g-nav.panelactive #g-nav-list{
     /*ナビの数が増えた場合縦スクロール*/
-    background-color: #42d1f5;
+    background-color: #ddd;
     position: fixed;
     z-index: 999; 
     width: 100%;
@@ -245,6 +316,15 @@ small{
         max-width: 1280px;
         margin: auto;
     }
+    .shopbtn{
+        display: block;
+        width: 12%;
+        background-color:#e6c078;
+    }
+    .shopbtn img{
+        padding:1em;
+        width: 60%;
+    }
     .contentbox{
     margin-top:80px ;
 }
@@ -271,7 +351,7 @@ small{
     margin: 0;
     letter-spacing: .2em;
 }
-.goods_maker{
+.goods_count{
  margin-bottom: 30px;
 }
 .link{
@@ -283,5 +363,8 @@ small{
 }
 .gnav{
     display: none;
+}
+.iconbox img{
+    width: 3%;
 }
 }

@@ -1,11 +1,11 @@
 [
     {
         "img": [
-            "mouse01.jpg",
-            "umaibo02.jpg",
-            "umaibo03.jpg"
+            "mouse01.png",
+            "mouse02.png",
+            "mouse03.png"
         ],
-        "name": "Logicool G ロジクール G PRO X SUPERLIGHT",
+        "name": "Logicool マウス",
         "price": "15,000",
         "state": true,
         "text": "ゲーマー御用達の無線マウス。「61g」と驚異の軽量さで、無線マウスとしても最軽量クラス。無線も遅延がない。最長70時間の仕様が可能と非常に電源効率が高い。短時間で充電も回復し、常にマウスを使い続けることが可能だ。",
@@ -16,12 +16,12 @@
     },
     {
         "img": [
-            "mouse01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "key01.png",
+            "key02.png",
+            "key03.png",
+            "key04.png"
         ],
-        "name": "Ducky キーボード One 2 Mini RGB versionシルバー軸",
+        "name": "Ducky キーボード One 2 Mini",
         "price": "14,980",
         "state": false,
         "text": "Ducky One2 Miniは60%サイズのキーボードで、文字列は英字のみ、カラーはブラックとホワイト、軸はCherry社の赤軸・茶軸・シルバー軸の3週類から選択できます。赤軸・シルバー軸も、打鍵感・打鍵音が少なく軽いリニアタイプの軸です。なので、どんな時間でも使いやすいキーボードです。キーボードの見た目は、サイズも非常にコンパクトで可愛いです。",
@@ -32,10 +32,10 @@
     },
     {
         "img": [
-            "mouse01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "mousesub02.png",
+            "mousesub01.png",
+            "mousesub02.png",
+            "mousesub01.png"
         ],
         "name": "Logicool G502 Hero",
         "price": "5,000",
@@ -48,12 +48,12 @@
     },
     {
         "img": [
-            "mouse01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "headset03.png",
+            "headset02.png",
+            "headset01.png",
+            "headset03.png"
         ],
-        "name": "SteelSeriesゲーミングヘッドセットArctis 5",
+        "name": "SteelSeriesヘッドセット",
         "price": "8,000",
         "state": false,
         "text": "PC・PS4でも使用できる有線ヘッドセット。長時間つけていても痛くないヘッドセットです。マイクの音質も良いです。本体から直接ミュートができたり、手物とケーブルから音量調節が可能できます。ヘッドセットにはバンドのようなものがついてあるので、自分にあったサイズに調節できます。",
@@ -64,10 +64,10 @@
     },
     {
         "img": [
-            "mouse01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "mouse01.png",
+            "mouse02.png",
+            "mouse01.png",
+            "mouse02.png"
         ],
         "name": "steelseries マウスパッド",
         "price": "1,500",
@@ -80,10 +80,10 @@
     },
     {
         "img": [
-            "mouse01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "danberu01.png",
+            "danberu02.png",
+            "danberu03.png",
+            "danberu04.png"
         ],
         "name": "ダンベル",
         "price": "4,000",
@@ -96,10 +96,10 @@
     },
     {
         "img": [
-            "mouse01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "mouse01.png",
+            "mouse01.png",
+            "mouse01.png",
+            "mouse01.png"
         ],
         "name": "L字デスク",
         "price": "1,5000",
@@ -112,10 +112,10 @@
     },
     {
         "img": [
-            "mouse01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "benti01.png",
+            "benti02.png",
+            "benti03.png",
+            "benti04.png"
         ],
         "name": "トレーニングベンチ",
         "price": "5,000",
@@ -128,10 +128,10 @@
     },
     {
         "img": [
-            "mouse01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "benti01.png",
+            "benti01.png",
+            "benti01.png",
+            "benti01.png"
         ],
         "name": "ゲーミングチェア",
         "price": "2,0000",
