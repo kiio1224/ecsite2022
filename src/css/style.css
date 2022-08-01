@@ -27,6 +27,7 @@ img{
 }
 h1{
     margin-left:0.5em;
+    margin: 0.8em 0;
 }
 .inner{
     width: 88.4%;
@@ -50,6 +51,9 @@ header{
 .PCnav{
 display: block;
 }
+.PCnav li{
+    margin-left: 1em;
+}
 .shopbtn{
     display: none;
 }
@@ -61,7 +65,8 @@ display: block;
 
 main>h2{
     text-align: center;
-    padding-top: 80px;
+    padding-top: 40px;
+    margin-bottom: 2em;
 }
 .list{
     display: flex;
@@ -88,7 +93,7 @@ main>h2{
 button{
     display: inline-block;
     border: none;
-    padding:20px 40px;
+    padding:1.5em 2.5em;
     background-color: #e6c078;
     color: #fff;
     border-radius: 30px;
@@ -309,7 +314,7 @@ input{
     .list{
         display: flex;
         flex-wrap:wrap;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     .inner{
         width: 88.4%;
@@ -321,6 +326,9 @@ input{
         align-items: center;
         width: 100%;
         justify-content:space-between;
+    }
+    .PCnav li{
+        margin-left: 2em;
     }
     .shopbtn{
         display: block;
@@ -374,5 +382,14 @@ input{
 }
 .iconbox img{
     width: 3%;
+}
+main>h2{
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 3em;
+}
+h1{
+    margin-left:1em;
+    margin: 0.7em 0;
 }
 }

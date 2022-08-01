@@ -18,8 +18,7 @@
         "img": [
             "key01.png",
             "key02.png",
-            "key03.png",
-            "key04.png"
+            "key03.png"
         ],
         "name": "Ducky キーボード One 2 Mini",
         "price": "14,980",
@@ -32,10 +31,9 @@
     },
     {
         "img": [
-            "mousesub02.png",
+            "mousesub03.png",
             "mousesub01.png",
-            "mousesub02.png",
-            "mousesub01.png"
+            "mousesub02.png"
         ],
         "name": "Logicool G502 Hero",
         "price": "5,000",
@@ -50,8 +48,7 @@
         "img": [
             "headset03.png",
             "headset02.png",
-            "headset01.png",
-            "headset03.png"
+            "headset01.png"
         ],
         "name": "SteelSeriesヘッドセット",
         "price": "8,000",
@@ -64,82 +61,92 @@
     },
     {
         "img": [
-            "mouse01.png",
-            "mouse02.png",
-            "mouse01.png",
-            "mouse02.png"
+            "monita01.png",
+            "monita02.png",
+            "monita03.png"
         ],
-        "name": "steelseries マウスパッド",
-        "price": "1,500",
+        "name": "AOCモニター",
+        "price": "15,000",
         "state": true,
-        "text": "愛用者も多い繊細なコントロールができるコスパ最強マウスパッド。様々な大きさのマウスパッドがあり、机のサイズや感度によってサイズを考えて購入することができます。多くのプロゲーマーも愛用しているマウスパッドで価格も手頃なので非常におすすめです。",
+        "text": "買って5年目になるモニター。23.6インチの曲面モニター。144hzがでるモニターです。",
         "id": 5,
         "colors": "黒",
-        "maker": "SteelSeries",
-        "url": "mousepad"
+        "maker": "AOC",
+        "url": "monitor"
     },
     {
         "img": [
             "danberu01.png",
             "danberu02.png",
-            "danberu03.png",
-            "danberu04.png"
+            "danberu03.png"
         ],
         "name": "ダンベル",
         "price": "4,000",
         "state": true,
         "text": "10kg✕2のダンベル。いくつか重りがあり、様々な調整が可能。片側で5kg・7.5kg・10kgの調整が可能。筋トレ初心者で少しずつ進めていきたいと言う人向けのダンベルです。少しずつ重りが緩んでいくこともあるので、しっかりと固定することが必要です。値段相応の価値はあります。",
-        "id": 7,
+        "id": 6,
         "colors": "銀色",
         "maker": "",
         "url": "dumbbell"
     },
     {
         "img": [
-            "mouse01.png",
-            "mouse01.png",
-            "mouse01.png",
-            "mouse01.png"
+            "blue01.png",
+            "blue02.png",
+            "blue03.png"
         ],
-        "name": "L字デスク",
-        "price": "1,5000",
+        "name": "bluetoothイヤホン",
+        "price": "3,000",
         "state": false,
-        "text": "快適な作業用デスク。これ一つで解決です。特にパソコンを使って作業する方向けです。パソコンの付近に飲み物などを置かなくても済みますし、スペースが広いので様々な作業の同時進行が可能です。物をしまうスペースもあるので、大事な資料などなくしてはいけないものを入れておいたりも可能です・欠点としては学校や会社のデスクスペースが狭く感じることですかね...。",
-        "id": 8,
+        "text": "3年使用しているイヤホン。使いやすくて安いので使っています。amazonで買いました。",
+        "id": 7,
         "colors": "茶色",
-        "maker": "",
+        "maker": "不明",
         "url": "desk"
     },
     {
         "img": [
             "benti01.png",
             "benti02.png",
-            "benti03.png",
-            "benti04.png"
+            "benti03.png"
         ],
         "name": "トレーニングベンチ",
         "price": "5,000",
         "state": true,
         "text": "Amazonで購入した筋トレに使うトレーニングベンチ組み立ても簡単で手頃なサイズなので、自宅で筋トレをする人にうってつけのアイテム。",
-        "id": 9,
+        "id": 8,
         "colors": "黒",
-        "maker": "",
-        "url": "Training bench"
+        "maker": "不明",
+        "url": "Trainingbench"
     },
     {
         "img": [
-            "benti01.png",
-            "benti01.png",
-            "benti01.png",
-            "benti01.png"
+            "chair01.png",
+            "chair02.png",
+            "chair03.png"
         ],
         "name": "ゲーミングチェア",
         "price": "2,0000",
         "state": false,
-        "text": "",
+        "text": "5年目の青いゲーミングチェア。当時はプロゲーマーのお部屋に憧れて購入。プロも絶賛しているけど実際に使ってみると本当に便利!家にいるときは常に座っています",
+        "id": 9,
+        "colors": "青",
+        "maker": "E-win",
+        "url": "chair"
+    },
+    {
+        "img": [
+            "senpuuki01.png",
+            "senpuuki02.png",
+            "senpuuki01.png"
+        ],
+        "name": "扇風機",
+        "price": "2,000",
+        "state": false,
+        "text": "おばあちゃんが買ってきた扇風機。買ってきたのに使わないためもらいました。エアコンをなるべく使わないために使用していますが、最近はあつすぎてこの扇風機だけではあつすぎる",
         "id": 10,
         "colors": "青",
-        "maker": "",
-        "url": "chair"
+        "maker": "不明",
+        "url": "fan"
     }
 ]
